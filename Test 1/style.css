@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.top-nav{
+    background-color: rgb(205, 199, 199);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 36px;
+}
+
+.box {
+    margin: 10px;
+    background-color: yellow;
+}
+
+.img{
+    display: flex;
+    margin: 40px 40px 0 40px;
+}
+
+.img-item{
+    text-align: center;
+    margin: 10px;
+}
+
+.img-item img{
+    height: 300px;
+}
